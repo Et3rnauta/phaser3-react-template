@@ -1,0 +1,28 @@
+.header {
+    height: 80px;
+}
+
+.main {
+    top: 80px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.left-panel {
+    height: 100%;
+    width: 240px;
+    float: left;
+    background-color: coral;
+    position: relative;
+}
+
+.game {
+    height: 100%;
+    left: 240px;
+    right: 0px;
+    position: absolute;
+    float: right;
+}
